@@ -5,11 +5,8 @@ app = Flask(__name__)
 @app.route('/files', methods=['GET'])
 def get_files():
     files = [
-        {"name": "Chemistry Notes Unit 1", "url": "https://abhi-42i.pages.dev/B.Tech_2nd_Yr_CSE_v3.pdf", "category": "Chemistry"},
+     {"name": "Chemistry Notes Unit 1", "url": "https://abhi-42i.pages.dev/B.Tech_2nd_Yr_CSE_v3.pdf", "category": "Chemistry"},
 
-
-
-        [
     {"name": "2020-21", "url": "https://abhi-42i.pages.dev/AI(2020-21).pdf", "category": "AI_pyq"},
     {"name": "2021-22", "url": "https://abhi-42i.pages.dev/AI(2021-22).pdf", "category": "AI_pyq"},
     {"name": "2015-16", "url": "https://abhi-42i.pages.dev/Chamistry1(2015-16).pdf", "category": "Chamistry_pyq"},
@@ -42,7 +39,7 @@ def get_files():
     {"name": "2022-23", "url": "https://abhi-42i.pages.dev/Electronics(2022-23).pdf", "category": "Electronics_pyq"},
     {"name": "2023-24", "url": "https://abhi-42i.pages.dev/Electronics(2023-24).pdf", "category": "Electronics_pyq"},
     {"name": "2015-16", "url": "https://abhi-42i.pages.dev/Electronics1(2015-16).pdf", "category": "Electronics_pyq"}
-    [
+    
     {"name": "2020-21", "url": "https://abhi-42i.pages.dev/EmergingDomain(2021-22).pdf", "category": "EmergingDomain_pyq"},
     {"name": "2020-21", "url": "https://abhi-42i.pages.dev/Emergingtechnology(2020-21).pdf", "category": "Emergingtechnology_pyq"},
     {"name": "2021-22", "url": "https://abhi-42i.pages.dev/Emergingtechnology(2021-22).pdf", "category": "Emergingtechnology_pyq"},
@@ -90,19 +87,6 @@ def get_files():
 ]
 
 
-
-
-
-
-]
-
-
-
-
-
-
-    ]
-    
     return jsonify(files)
 
 
