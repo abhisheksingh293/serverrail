@@ -6,7 +6,6 @@ app = Flask(__name__)
 def get_files():
     files = [
         {"name": "Chemistry Notes Unit 1", "url": "https://abhi-42i.pages.dev/B.Tech_2nd_Yr_CSE_v3.pdf", "category": "Chemistry"},
-
         {"name": "2020-21", "url": "https://abhi-42i.pages.dev/AI(2020-21).pdf", "category": "AI_pyq"},
         {"name": "2021-22", "url": "https://abhi-42i.pages.dev/AI(2021-22).pdf", "category": "AI_pyq"},
         {"name": "2015-16", "url": "https://abhi-42i.pages.dev/Chamistry1(2015-16).pdf", "category": "Chamistry_pyq"},
