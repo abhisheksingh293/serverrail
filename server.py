@@ -33,7 +33,7 @@ def get_files():
         {"name": "Physics Unit 5", "url": "https://abhi-42i.pages.dev/B.Tech_2nd_Yr_CSE_v3.pdf", "category": "Physics_pyq"},
 
 
-        [
+        
     {"name": "Maths1 Unit 1", "url": "https://abhi-42i.pages.dev/B.Tech_2nd_Yr_CSE_v3.pdf", "category": "Maths1_notes"},
     {"name": "Maths1 Unit 2", "url": "https://abhi-42i.pages.dev/B.Tech_2nd_Yr_CSE_v3.pdf", "category": "Maths1_notes"},
     {"name": "Maths1 Unit 3", "url": "https://abhi-42i.pages.dev/B.Tech_2nd_Yr_CSE_v3.pdf", "category": "Maths1_notes"},
@@ -136,7 +136,7 @@ def get_files():
 
 
         
-    ]
+    
     return jsonify(files)
 
 
