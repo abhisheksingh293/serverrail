@@ -10,7 +10,7 @@ def get_files():
         {"name": "Physics Notes Chapter 1", "url": "https://raw.githubusercontent.com/username/repository/branch/path/to/chapter1.pdf", "category": "Electrical_pyq"},
         {"name": "Physics Notes Chapter 2", "url": "https://raw.githubusercontent.com/username/repository/branch/path/to/chapter2.pdf", "category": "Electrical_notes"},
         {"name": "Chemistry Notes Chapter 3", "url": "https://raw.githubusercontent.com/username/repository/branch/path/to/chapter3.pdf", "category": "Chemistry_pyq"},
-        {"name": "Physics Notes Chapter 3", "url": "https://raw.githubusercontent.com/username/repository/branch/path/to/chapter3.pdf", "category": "Physics"}
+        {"name": "Physics Notes Chapter 3", "url": "https://raw.githubusercontent.com/username/repository/branch/path/to/chapter3.pdf", "category": "Physics_notes"}
     ]
     return jsonify(files)
 
